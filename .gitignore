@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+results/*.json
+results/*.jsonl
+# Resumption checkpoints are working files, not results
+results/**/checkpoint.json
+# Session transcripts / exports
+session-*.md
+*-claude-latest.txt
